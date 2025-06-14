@@ -12,6 +12,6 @@ Feel free to explore the code and follow along if you're also on a Python learni
 
 ## Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/nishant-bhandigare-b73227264/)
+- [LinkedIn](https://www.linkedin.com/in/nishant-bhandigare/)
 
 Happy coding!
