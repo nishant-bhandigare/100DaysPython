@@ -10,7 +10,7 @@ def sendWishes(receiver_name, receiver_email):
     letter_no = random.choice([1,2,3])
     message = ""
 
-    with open(f"day_32\letter_templates\letter_{letter_no}.txt", "r") as file:
+    with open(f"day_32\Automated Birthday Wisher\letter_templates\letter_{letter_no}.txt", "r") as file:
         content = file.read()
         message = content.replace("[NAME]", receiver_name)
 
@@ -27,7 +27,7 @@ now = dt.datetime.now()
 nowDate = now.day
 nowMonth = now.month
 
-birthdays = pd.read_csv(r"day_32\birthdays.csv")
+birthdays = pd.read_csv(r"day_32\Automated Birthday Wisher\birthdays.csv")
 
 for index, row in birthdays.iterrows():
     if row["month"] == nowMonth and row["day"] == nowDate:

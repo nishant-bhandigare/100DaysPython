@@ -11,7 +11,7 @@ password = os.getenv("APP_PASSWORD")
 nowDay = dt.datetime.now()
 
 if nowDay==0:
-    with open(r"day_32\quotes.txt", 'r') as file:
+    with open(r"day_32\Monday Motivation\quotes.txt", 'r') as file:
         quote = random.choice(file.readlines())
 
     with smtplib.SMTP("smtp.gmail.com") as connection:
